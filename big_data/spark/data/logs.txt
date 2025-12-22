@@ -1,0 +1,5 @@
+INFO User logged in
+ERROR Failed to load page
+INFO Data processed
+WARN Low memory
+ERROR Disk not found

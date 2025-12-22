@@ -1,0 +1,12 @@
+version: '3'
+services:
+  ambari-server:
+    image: hortonworks/ambari-server:latest
+    ports:
+      - "8080:8080"
+    environment:
+      - AMBARI_ADMIN_PASSWORD=admin
+    tty: true
+  ambari-agent:
+    image: hortonworks/ambari-server:latest
+
