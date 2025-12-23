@@ -18,7 +18,6 @@ __pycache__/
 *.pyo
 *.pyd
 
-*.txt
 *.gz
 hadoop-3.3.6/
 .venv/
